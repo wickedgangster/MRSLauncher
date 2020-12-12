@@ -1,4 +1,4 @@
-* Original Source: ![https://github.com/dscalzi/HeliosLauncher](https://github.com/dscalzi/HeliosLauncher)
+* Original Source: [https://github.com/dscalzi/HeliosLauncher](https://github.com/dscalzi/HeliosLauncher)
 
 <p align="center"><img src="./app/assets/images/SealCircle.png" width="150px" height="150px" alt="aventium softworks"></p>
 
