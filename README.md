@@ -55,9 +55,9 @@ If you download from the [Releases](https://github.com/peunsu/MRSLauncher/releas
 
 | Platform | File |
 | -------- | ---- |
-| Windows x64 | `helioslauncher-setup-VERSION.exe` |
-| ~~macOS~~| ~~`helioslauncher-VERSION.dmg`~~ |
-| ~~Linux x64~~ | ~~`helioslauncher-VERSION-x86_64.AppImage`~~ |
+| Windows x64 | `MRS-Launcher-setup-VERSION.exe` |
+| ~~macOS~~|  |
+| ~~Linux x64~~ |  |
 
 ## Console
 
