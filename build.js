@@ -21,7 +21,7 @@ builder.build({
         appId: 'mrslauncher',
         productName: 'MRS Launcher',
         artifactName: '${productName}-setup-${version}.${ext}',
-        copyright: 'Copyright © 2017-2021 Mystic Red Space',
+        copyright: 'Copyright 2017-2021. Mystic Red Space All rights reserved.',
         directories: {
             buildResources: 'build',
             output: 'dist'
