@@ -21,7 +21,7 @@ process.traceDeprecation = true
 // Disable eval function.
 // eslint-disable-next-line
 window.eval = global.eval = function () {
-    throw new Error('Sorry, this app does not support window.eval().')
+    throw new Error('이 프로그램은 window.eval()을 지원하지 않습니다.')
 }
 
 // Display warning when devtools window is opened.
@@ -42,7 +42,7 @@ if(!isDev){
         switch(arg){
             case 'checking-for-update':
                 loggerAutoUpdater.log('Checking for update..')
-                settingsUpdateButtonStatus('Checking for Updates..', true)
+                settingsUpdateButtonStatus('업데이트 확인 중..', true)
                 break
             case 'update-available':
                 loggerAutoUpdaterSuccess.log('New update available', info.version)
@@ -55,8 +55,8 @@ if(!isDev){
                 populateSettingsUpdateInformation(info)
                 break
             case 'update-downloaded':
-                loggerAutoUpdaterSuccess.log('Update ' + info.version + ' ready to be installed.')
-                settingsUpdateButtonStatus('Install Now', false, () => {
+                loggerAutoUpdaterSuccess.log(info.version + ' 업데이트를 설치할 준비가 되었습니다.')
+                settingsUpdateButtonStatus('지금 설치', false, () => {
                     if(!isDev){
                         ipcRenderer.send('autoUpdateAction', 'installUpdateNow')
                     }
@@ -65,7 +65,7 @@ if(!isDev){
                 break
             case 'update-not-available':
                 loggerAutoUpdater.log('No new update found.')
-                settingsUpdateButtonStatus('Check for Updates')
+                settingsUpdateButtonStatus('업데이트 확인')
                 break
             case 'ready':
                 updateCheckListener = setInterval(() => {

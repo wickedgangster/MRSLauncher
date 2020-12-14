@@ -109,9 +109,9 @@ function showFatalStartupError(){
         $('#loadingContainer').fadeOut(250, () => {
             document.getElementById('overlayContainer').style.background = 'none'
             setOverlayContent(
-                'Fatal Error: Unable to Load Distribution Index',
-                'A connection could not be established to our servers to download the distribution index. No local copies were available to load. <br><br>The distribution index is an essential file which provides the latest server information. The launcher is unable to start without it. Ensure you are connected to the internet and relaunch the application.',
-                'Close'
+                '치명적인 오류: Distribution Index를 불러오지 못했습니다',
+                'Distribution Index를 다운로드하기 위한 서버에 연결할 수 없습니다. 불러올 로컬 복사본이 존재하지 않습니다. <br><br>Distribution Index는 최신 서버 정보를 제공하는 필수적인 파일입니다. 이 파일이 없으면 런처를 실행할 수 없습니다. 인터넷 연결을 확인한 후 프로그램을 재실행하세요.',
+                '닫기'
             )
             setOverlayHandler(() => {
                 const window = remote.getCurrentWindow()
@@ -323,10 +323,10 @@ async function validateSelectedAccount(){
             ConfigManager.save()
             const accLen = Object.keys(ConfigManager.getAuthAccounts()).length
             setOverlayContent(
-                'Failed to Refresh Login',
-                `We were unable to refresh the login for <strong>${selectedAcc.displayName}</strong>. Please ${accLen > 0 ? 'select another account or ' : ''} login again.`,
-                'Login',
-                'Select Another Account'
+                '로그인을 새로고침하지 못했습니다',
+                `<strong>${selectedAcc.displayName}</strong> 계정에 대한 로그인을 새로고침할 수 없습니다. ${accLen > 0 ? '다른 계정을 선택하거나' : ''} 다시 로그인해주세요.`,
+                '로그인',
+                '다른 계정 선택'
             )
             setOverlayHandler(() => {
                 document.getElementById('loginUsername').value = selectedAcc.username
