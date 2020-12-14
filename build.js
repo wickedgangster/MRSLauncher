@@ -19,7 +19,7 @@ builder.build({
     targets: (process.argv[2] != null && Platform[process.argv[2]] != null ? Platform[process.argv[2]] : getCurrentPlatform()).createTarget(),
     config: {
         appId: 'mrslauncher',
-        productName: 'MRS Launcher',
+        productName: 'MRS-Launcher',
         artifactName: '${productName}-setup-${version}.${ext}',
         copyright: 'Copyright 2017-2021. Mystic Red Space All rights reserved.',
         directories: {
