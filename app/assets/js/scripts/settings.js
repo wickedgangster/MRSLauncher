@@ -1304,7 +1304,7 @@ function populateSettingsUpdateInformation(data){
         populateVersionInformation(data.version, settingsUpdateVersionValue, settingsUpdateVersionTitle, settingsUpdateVersionCheck)
         
         if(process.platform === 'darwin'){
-            settingsUpdateButtonStatus('Github에서 다운로드<span style="font-size: 10px;color: gray;text-shadow: none !important;">런처를 닫고 dmg를 실행하여 업데이트하세요.</span>', false, () => {
+            settingsUpdateButtonStatus('Github에서 다운로드<span style="font-size: 10px;color: gray;text-shadow: none !important;">런처를 닫고 exe를 실행하여 업데이트하세요.</span>', false, () => {
                 shell.openExternal(data.darwindownload)
             })
         } else {
