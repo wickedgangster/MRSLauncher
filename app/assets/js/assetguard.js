@@ -1752,7 +1752,7 @@ class AssetGuard extends EventEmitter {
      * @param {number} limit Optional. The number of async processes to run in parallel.
      * @returns {boolean} True if the process began, otherwise false.
      */
-    startAsyncProcess(identifier, limit = 5){
+    startAsyncProcess(identifier, limit = 1){
 
         const self = this
         const dlTracker = this[identifier]
