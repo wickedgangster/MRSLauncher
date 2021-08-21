@@ -4,7 +4,7 @@
 
 <h1 align="center">MRS Launcher</h1>
 
-<em><h5 align="center">[MRS Server Homepage](https://mysticrs.tk) [(Discord)](https://discord.gg/gdhjBVw)</h5></em>
+<em><h5 align="center">[MRS Server Homepage](https://mrsmc.xyz) [(Discord)](https://discord.gg/Z8j6ahF4MJ)</h5></em>
 
 [<p align="center"><img src="https://img.shields.io/travis/peunsu/MRSLauncher.svg?style=for-the-badge" alt="travis">](https://travis-ci.org/peunsu/MRSLauncher) [<img src="https://img.shields.io/github/downloads/peunsu/MRSLauncher/total.svg?style=for-the-badge" alt="downloads">](https://github.com/peunsu/MRSLauncher/releases)</p>
 
