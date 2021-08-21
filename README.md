@@ -44,10 +44,10 @@ You can download from [GitHub Releases](https://github.com/peunsu/MRSLauncher/re
 
 #### Latest Release
 
-[![](https://img.shields.io/github/release/peunsu/MRSLauncher.svg?style=flat-square)](https://github.com/peunsu/MRSLauncher/releases/latest)
+[![](https://img.shields.io/github/v/release/peunsu/MRSLauncher.svg?style=flat-square)](https://github.com/peunsu/MRSLauncher/releases/latest)
 
 #### Latest Pre-Release
-[![](https://img.shields.io/github/release/peunsu/MRSLauncher/all.svg?style=flat-square)](https://github.com/peunsu/MRSLauncher/releases)
+[![](https://img.shields.io/github/v/release/peunsu/MRSLauncher.svg?include_prereleases&style=flat-square)](https://github.com/peunsu/MRSLauncher/releases)
 
 **Supported Platforms**
 
