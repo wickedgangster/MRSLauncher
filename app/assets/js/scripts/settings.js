@@ -1231,7 +1231,9 @@ function populateReleaseNotes(){
     $.ajax({
         url: 'https://github.com/peunsu/MRSLauncher/releases.atom',
         success: (data) => {
-            const version = 'v' + remote.app.getVersion()
+            // MRS Edit
+            // const version = 'v' + remote.app.getVersion()
+            const version = remote.app.getVersion()
             const entries = $(data).find('entry')
             
             for(let i=0; i<entries.length; i++){
