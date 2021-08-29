@@ -1,6 +1,6 @@
 {
   "name": "mrslauncher",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "productName": "MRS-Launcher",
   "description": "Modded Minecraft Launcher",
   "author": "Xestiny (https://github.com/peunsu), Daniel Scalzi (https://github.com/dscalzi/)",
@@ -47,6 +47,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dscalzi/HeliosLauncher.git"
+    "url": "git+https://github.com/peunsu/MRSLauncher.git"
   }
 }
