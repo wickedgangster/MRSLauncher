@@ -1,8 +1,8 @@
-appId: 'mrslauncher'
-productName: 'MRS Launcher'
-artifactName: 'MRS-Launcher-setup-${version}.${ext}'
+appId: 'Wickedlauncher'
+productName: 'WickedGang Launcher'
+artifactName: 'WickedGang-Launcher-setup-${version}.${ext}'
 
-copyright: 'Copyright © 2018-2024 Daniel Scalzi, Copyright © 2024 peunsu'
+copyright: 'Copyright © 2018-2024 WcikedGang'
 
 asar: true
 compression: 'maximum'
@@ -12,6 +12,10 @@ files:
 
 extraResources:
   - 'libraries'
+
+publish:
+  provider: 'generic'
+  url: 'https://wickedgangster.github.io/WickedLauncher/'
 
 # Windows Configuration
 win: 
@@ -33,14 +37,14 @@ mac:
       arch:
         - 'x64'
         - 'arm64'
-  artifactName: 'MRS-Launcher-setup-${version}-${arch}.${ext}'
+  artifactName: 'WcikedGang-Launcher-setup-${version}-${arch}.${ext}'
   category: 'public.app-category.games'
 
 # Linux Configuration
 linux: 
   target: 'AppImage'
-  maintainer: 'Daniel Scalzi, peunsu'
-  vendor: 'Daniel Scalzi, peunsu'
+  maintainer: 'WickedGang'
+  vendor: 'WcikedGang'
   synopsis: 'Modded Minecraft Launcher'
   description: 'Custom launcher which allows users to join modded servers. All mods, configurations, and updates are handled automatically.'
   category: 'Game'
