@@ -15,7 +15,7 @@ extraResources:
 
 publish:
   provider: 'generic'
-  url: 'https://wickedgangster.github.io/WickedLauncher/'
+  url: 'https://wickedgang.ddns.net:8080/'
 
 # Windows Configuration
 win: 

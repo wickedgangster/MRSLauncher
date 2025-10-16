@@ -49,7 +49,7 @@ if(!isDev){
                 loggerAutoUpdater.info('New update available', info.version)
                 
                 if(process.platform === 'darwin'){
-                    info.darwindownload = `https://wickedgangster.github.io/WickedLauncher/WickedGang-Launcher-setup-${info.version}/MRS-Launcher-setup-${info.version}${process.arch === 'arm64' ? '-arm64' : '-x64'}.dmg`
+                    info.darwindownload = `https://wickedgang.ddns.net:8080/WickedGang-Launcher-setup-${info.version}/MRS-Launcher-setup-${info.version}${process.arch === 'arm64' ? '-arm64' : '-x64'}.dmg`
                     showUpdateUI(info)
                 }
                 
